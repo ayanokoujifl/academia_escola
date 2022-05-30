@@ -1,0 +1,27 @@
+
+table {
+   background: rgb(166, 150, 173);
+   border: 2px solid rgb(51, 3, 80);
+   margin: auto;
+   align-items: center;
+}
+
+tr {
+   /** Faz o estilo para as linhas. **/
+  text-align: center;
+   border: 2px solid rgb(51, 3, 80);
+}
+
+th {
+   /** Faz o estilo para as células do cabeçalho. **/
+   background-color: rgb(51, 3, 80);
+   font-size: 16pt;
+   color: rgb(187, 161, 189);
+   border: 2px solid rgb(51, 3, 80);
+
+}
+
+td {
+   background-color: rgb(187, 161, 189);
+   color: rgb(51, 3, 80);
+} 
