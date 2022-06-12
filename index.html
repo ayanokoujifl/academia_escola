@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./styles/assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="./styles/assets/favicon/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="./styles/estilização/NavBar.css">
+    <link rel="stylesheet" type="text/css" href="./styles/estilização/BodyAll.css">
     <title>Início</title>
 </head>
 
@@ -17,7 +18,7 @@
     <header>
         <nav>
             <h1>Academia Boa Forma</h1>
-            <a href="http://github.com/ayanokoujifl" target="_blank">
+            <a href="http://github.com/ayanokoujifl" target="_blank" class="git">
                 <img src="./styles/assets/git.svg" alt='GitHubIcon'>
                 <p>Luís Gustavo</p>
                 </div>
@@ -26,17 +27,13 @@
         </nav>
     </header>
 
-    <div class="">
-        <a href="./visual/listagemCliente.php" class=""><strong>Clientes</strong> </a>
-        <br>
-        <a href="./visual/listagemFuncionario.php" class=""><strong>Funcionários</strong></a>
-        <br>
-        <a href="./visual/listagemEquipamento.php" class=""><strong>Equipamentos</strong></a>
-        <br />
-        <a href="./visual/listagemModalidade.php" class=""><strong>Modalidades</strong></a>
+    <div class="listButtons">
+        <a href="./visual/listagemCliente.php"><strong>Clientes</strong> </a>
+        <a href="./visual/listagemFuncionario.php"><strong>Funcionários</strong></a>
+        <a href="./visual/listagemEquipamento.php"><strong>Equipamentos</strong></a>
+        <a href="./visual/listagemModalidade.php"><strong>Modalidades</strong></a>
     </div>
-
-    <div class="">
+    <div class="buttons">
         <a href="./visual/formCadastroCliente.php">
             <h3 class="">Cadastro de Clientes</h3>
         </a>
@@ -49,12 +46,12 @@
         <a href="./visual/formCadastroModalidade.php">
             <h3 class="">Cadastro de Modalidades</h3>
         </a>
-        <img src="./styles/assets/favicon/android-chrome-512x512.png">
     </div>
-
+    <img src="./styles/assets/favicon/android-chrome-512x512.png" class="haltere">
 </body>
 
 </html>
+<!--
 <?php
 /*
 require_once './modelo/Cliente.php';

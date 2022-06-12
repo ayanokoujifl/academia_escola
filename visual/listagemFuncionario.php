@@ -9,30 +9,28 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../styles/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../styles/assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="../styles/assets/favicon/site.webmanifest">
-    <title>Funcionarios</title>
-    <link rel="stylesheet" type="text/css" href="/academia/styles/estilização/Tables.css">
-    <link rel="stylesheet" type="text/css" href="/academia/styles/estilização/BodyAll.css">
+    <link rel="stylesheet" type="text/css" href="../styles/estilização/Tables.css">
+    <link rel="stylesheet" type="text/css" href="../styles/estilização/BodyAll.css">
     <link rel="stylesheet" href="../styles/estilização/NavBar.css">
+    <title>Funcionarios</title>
 
 <body>
-    <header class="header">
+    <header>
         <nav>
-            <div class="nav-bar-content">
-                <h1>Academia Boa Forma</h1>
-                <a href="http://github.com/ayanokoujifl" target="_blank" class="nav-bar-link">
-                    <div class="nav-bar-icon">
-                        <img src="../styles/assets/git.svg" alt='GitHubIcon'>
-                        <p class="nav-bar-align">Luís Gustavo</p>
-                    </div>
-                </a>
+            <h1>Academia Boa Forma</h1>
+            <a href="http://github.com/ayanokoujifl" target="_blank" class="git">
+                <img src="../styles/assets/git.svg" alt='GitHubIcon'>
+                <p class="">Luís Gustavo</p>
+                </div>
+            </a>
             </div>
         </nav>
     </header>
-    <h1 class="titulo">
-        Listagem de Funcionarios:
-    </h1>
+    <h2>
+        <i>Listagem de Funcionarios:</i>
+    </h2>
     <div>
-        <a href="../index.php" class="inicio">
+        <a href="../index.html" class="inicio">
             Inicio
         </a>
         <table>
