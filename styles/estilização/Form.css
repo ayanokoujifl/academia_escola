@@ -31,6 +31,9 @@ input {
   border-radius: 15px 40px 15px 40px;
   border: none;
   color: #fff;
+  padding: 0.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .align-form {

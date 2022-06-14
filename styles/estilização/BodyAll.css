@@ -75,6 +75,7 @@ h2 {
   margin-bottom: 1.8rem;
   text-align: center;
   font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .inicio {
@@ -94,4 +95,5 @@ h2 {
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
+  padding: 0.5rem;
 }
